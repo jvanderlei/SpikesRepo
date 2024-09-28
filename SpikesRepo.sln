@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommandPatternForDDD", "CommandPatternForDDD", "{46CC7AD8-2EF1-4623-848C-3D37D9CA0FA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{D9628F62-2B8F-47B1-8944-8D6B6B16FC0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gRPC", "gRPC", "{4EF9581E-5819-4546-A6F7-7725AD6E54B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRegisterSpike", "WPF\UserRegisterSpike\UserRegisterSpike.csproj", "{B0F129DD-9937-49E5-898F-419520052A07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMToolkit", "WPF\MVVMToolkit\MVVMToolkit.csproj", "{3934F9D1-080A-479C-9B4E-4B57ECE914D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0F129DD-9937-49E5-898F-419520052A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F129DD-9937-49E5-898F-419520052A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F129DD-9937-49E5-898F-419520052A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F129DD-9937-49E5-898F-419520052A07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3934F9D1-080A-479C-9B4E-4B57ECE914D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3934F9D1-080A-479C-9B4E-4B57ECE914D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3934F9D1-080A-479C-9B4E-4B57ECE914D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3934F9D1-080A-479C-9B4E-4B57ECE914D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0F129DD-9937-49E5-898F-419520052A07} = {D9628F62-2B8F-47B1-8944-8D6B6B16FC0F}
+		{3934F9D1-080A-479C-9B4E-4B57ECE914D3} = {D9628F62-2B8F-47B1-8944-8D6B6B16FC0F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E2F9060-08C7-4DBE-8E15-16BDBA44E5D7}
+	EndGlobalSection
+EndGlobal
