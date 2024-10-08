@@ -1,0 +1,11 @@
+as a waiter I want to be able to register orders so that I can easily generate payments and know when ingredients are low
+as a waiter I want to be able to generate checks with all orders from a table to easily recive payments
+as a waiter I want to be able to receive one or many payments so that clients can share the bill
+as a waiter I want to be able to register asked changes per item on Menu so that I can cook the specified meal for the client
+as a waiter I want to be able to know when some ingredients are low in stock
+as a waiter I want to only see on menu the itens that have ingredients enough to be made
+as a cook I want to be able to receive orders made so that I can deliver then faster
+as a cook I want to be warned in case one ingredient is low so that I can buy more
+as a cook I want to be able to create new dishes and add them to one or more menus
+as a cook I want to be able to 
+as a cook I want to be able to easily change the menu so that in special ocasions we can change it

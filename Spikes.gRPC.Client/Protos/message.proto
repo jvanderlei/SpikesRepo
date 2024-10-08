@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "Spike.gRPC.Server";
+
+package comm;
+
+service  Comm{
+  rpc BiWayStreaming (stream ClientMessage) returns (stream ServerMessage);
+}
+
+message ClientMessage {
+  string message = 1;
+}
+
+message ServerMessage {
+  string message = 1;
+}
